@@ -13,3 +13,14 @@ string[] GetArray(string[] Array)
     }
     return Array;
 }
+
+void PrintArray(string[] Array)
+{
+    Console.Write($"[");
+    for (int i = 0; i < Array.Length - 1; i++)
+    {
+        if (Array[i]!="")
+        Console.Write($"{Array[i]}, ");
+    }
+    Console.Write($"{Array[Array.Length - 1]}]");
+}
