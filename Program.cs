@@ -24,3 +24,7 @@ void PrintArray(string[] Array)
     }
     Console.Write($"{Array[Array.Length - 1]}]");
 }
+
+GetArray(array);
+Array.Sort(array);
+PrintArray(array);
